@@ -44,7 +44,7 @@ a {
 
 /* Navbar */
 #navbar {
-    width: 100%;
+    width: 100vw;
     background: #111;
     color: #eee;
     height: 80px;
@@ -226,22 +226,26 @@ a {
 
 /* Gallery section */
 #gallery {
-    width: 90%;
-    margin: auto;
+    width: 100%;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #gallery-container {
+    width: 90%;   
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-gap: 15px;
     justify-items: center;
 }
 
 .gallery-image {
     display: inline-block;
-    width: 540px;
-    height: 360px;
+    width: 340px;
+    height: 260px;
     border-radius: 5px;
 }
 

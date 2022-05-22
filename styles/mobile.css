@@ -25,12 +25,12 @@
 }
 
 #companies-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 
 
 .company {
-    width: 50%;
+    width: 25%;
 }
 
 /* Features */
@@ -74,5 +74,5 @@
 }
 
 .gallery-image {
-    width: 100%;
+    width: 70%;
 }
