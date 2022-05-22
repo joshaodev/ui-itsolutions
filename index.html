@@ -8,117 +8,132 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <div>
-                <span class="logo">IT Solutions</span>
-            </div>
-            <div>
-                <nav class="navbar">
-                    <ul class="menu-items">
-                        <li class="menu-item">
-                            <a href="#">Inicio</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">Sobre</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">Galeria</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+
+    <nav id="navbar">
+        <div id="navbar-container">
+            <h1 class="logo">IT Solutions</h1>
+            <ul id="navbar-items">
+                <li><a href="#showcase">Início</a></li>
+                <li><a href="#companies">Sobre</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="showcase">
+        <div id="showcase-container">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, provident.</p>
+            <a class="btn" href="#companies">Saiba mais</a>
         </div>
     </header>
-    <main>
-        <div id="showcase">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, provident.</p>
-            <a href="#">Saiba Mais</a>
-        </div>
-        <div id="companies">
-            <h2>NOSSOS CLIENTES</h2>
-            <div class="company">
-                <img src="./images/netflix.png" alt="Netfix Logo">
-            </div>
-            <div class="company">
-                <img src="./images/google.png" alt="Google Logo">
-            </div>
-            <div class="company">
-                <img src="./images/apple.png" alt="Aple Logo">
-            </div>
-            <div class="company">
-                <img src="./images/microsoft.png" alt="Microsoft Logo">
-            </div>
-        </div>
-        <div id="services">
-            <h2>O QUE FAZEMOS</h2>
-            <div class="service">
-                <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus id rerum ex earum recusandae voluptates incidunt, quisquam tempore itaque ipsa.</p>
-            </div>
-            <div class="service">
-                <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus id rerum ex earum recusandae voluptates incidunt, quisquam tempore itaque ipsa.</p>
-            </div>
-            <div class="service">
-                <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus id rerum ex earum recusandae voluptates incidunt, quisquam tempore itaque ipsa.</p>
-            </div>
-        </div>
-        <div id="products">
-            <h2>NOSSO PRODUTO</h2>
-            <div class="product">
 
+    <section id="showcase">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, provident.</p>
+        <a href="#">Saiba Mais</a>
+    </section>
+
+    <section id="companies">
+        <div class="headline">Nossos clientes</div>
+        <div id="companies-container">
+            <img src="./images/netflix.png" alt="Netflix Logo" class="company">
+            <img src="./images/google.png" alt="Google Logo" class="company">
+            <img src="./images/apple.png" alt="Apple Logo" class="company">
+            <img src="./images/microsoft.png" alt="Microsoft Logo" class="company">
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="headline">O que fazemos</div>
+        <div id="features-container">
+            <div class="feature">
+                <i class="fas fa-tachometer-alt fa-3x"></i>
+                <span class="title">Lorem ipsum dolor sit amet.</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus id rerum ex earum recusandae
+                    voluptates incidunt, quisquam tempore itaque ipsa.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-code fa-3x"></i>
+                <span class="title">Lorem ipsum dolor sit amet.</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus id rerum ex earum recusandae
+                    voluptates incidunt, quisquam tempore itaque ipsa.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-layer-group fa-3x"></i>
+                <span class="title">Lorem ipsum dolor sit amet.</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus id rerum ex earum recusandae
+                    voluptates incidunt, quisquam tempore itaque ipsa.</p>
             </div>
         </div>
-        <div id="testimonies">
-            <h2>O QUE ACHAM DE NÓS</h2>
-            <div class="testimony">
-                <div class="testimony-person">
-                    <img src="./images/person-1.jpeg" alt="Person image of testimony">
+    </section>
+
+    <section id="product">
+        <div class="headline">Nosso produto</div>
+        <div id="product-container">
+            <img src="./images/iphone-x.png" alt="">
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-map-marked fa-2x color-primary"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quia labore dignissimos. Cumque,
+                        dignissimos? Libero?</p>
                 </div>
-                <div class="testimony-text">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, possimus! Quaerat quae nostrum laborum dignissimos, repudiandae reprehenderit amet exercitationem obcaecati.                    </p>
+                <div class="item">
+                    <i class="fas fa-users fa-2x color-primary"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quia labore dignissimos. Cumque,
+                        dignissimos? Libero?</p>
                 </div>
-            </div>
-            <div class="testimony">
-                <div class="testimony-person">
-                    <img src="./images/person-2.jpeg" alt="Person image of testimony">
+                <div class="item">
+                    <i class="fas fa-glass-cheers fa-2x color-primary"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quia labore dignissimos. Cumque,
+                        dignissimos? Libero?</p>
                 </div>
-                <div class="testimony-text">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, possimus! Quaerat quae nostrum laborum dignissimos, repudiandae reprehenderit amet exercitationem obcaecati.                    </p>
-                </div>
-            </div>
-        </div>
-        <div id="gallery">
-            <h2>GALERIA</h2>
-            <div class="gallery-items">
-                <div class="gallery-item">
-                    <img src="./images/image-1.jpeg" alt="Gallery Image 1">
-                </div>
-                <div class="gallery-item">
-                    <img src="./images/image-2.jpeg" alt="Gallery Image 2">
-                </div>
-                <div class="gallery-item">
-                    <img src="./images/image-3.jpeg" alt="Gallery Image 3">
-                </div>
-                <div class="gallery-item">
-                    <img src="./images/image-4.jpeg" alt="Gallery Image 4">
-                </div>
-                <div class="gallery-item">
-                    <img src="./images/image-5.jpeg" alt="Gallery Image 5">
-                </div>
-                <div class="gallery-item">
-                    <img src="./images/image-6.jpeg" alt="Gallery Image 6">
+                <div class="item">
+                    <i class="fas fa-glass-cheers fa-2x color-primary"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quia labore dignissimos. Cumque,
+                        dignissimos? Libero?</p>
                 </div>
             </div>
         </div>
-    </main>
+    </section>
+
+    <section id="testimonials">
+        <div class="headline">O que acham de nós</div>
+        <div id="testimonials-container">
+            <div class="testimonial">
+                <img src="./images/person-1.jpeg" alt="" class="person">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, possimus! Quaerat quae nostrum
+                    laborum dignissimos, repudiandae reprehenderit amet exercitationem obcaecati.</p>
+            </div>
+            <div class="testimonial">
+                <img src="./images/person-2.jpeg" alt="" class="person">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, possimus! Quaerat quae nostrum
+                    laborum dignissimos, repudiandae reprehenderit amet exercitationem obcaecati.</p>
+            </div>
+        </div>        
+    </section>
+
+    <section id="gallery">
+        <div class="headline">Galeria</div>
+        <div id="gallery-container">
+            <img src="./images/image-1.jpeg" alt="Gallery Image 1" class="gallery-image">
+            <img src="./images/image-2.jpeg" alt="Gallery Image 2" class="gallery-image">
+            <img src="./images/image-3.jpeg" alt="Gallery Image 3" class="gallery-image">
+            <img src="./images/image-4.jpeg" alt="Gallery Image 4" class="gallery-image">
+            <img src="./images/image-5.jpeg" alt="Gallery Image 5" class="gallery-image">
+            <img src="./images/image-6.jpeg" alt="Gallery Image 6" class="gallery-image">
+        </div>
+    </section>
+    
     <footer>
         <p>Copyright 2022 - All rights reserved.</p>
         <p>Designed by IT Solutions.</p>
     </footer>
+
+
+    <!-- jQuery -->
+
+    <!-- Smooth Scrolling -->
     <script src="./scripts/main.js"></script>
 </body>
 </html>
